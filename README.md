@@ -61,3 +61,18 @@ CloudWatch Agent collects:
 7. Scalability
 - supports growth in AWS accounts, regions, EC2 Instances, teams/environments
 - No redesign required
+
+#Repository Structure
+Lucidity-Disk-Monitoring-Solution-for-Cloud-Environments/
+│── README.md
+│── ansible/
+│   ├── inventory_aws_ec2.yml
+│   ├── playbook-install-cloudwatch-agent.yml
+│   ├── cloudwatch-config.json
+│   └── ansible.cfg
+│── lambda/
+│   └── auto_onboard.py
+│── iam/
+│   └── cross-account-role-policy.json
+│── docs/
+│   └── key-design-decisions.md
