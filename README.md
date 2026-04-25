@@ -1,11 +1,13 @@
 # Lucidity-Disk-Monitoring-Solution-for-Cloud-Environments
 Scalable-AWS-Disk-Monitoring-Solution
 
-#Background
+##Background
 
 A large Enterprise is operating mulitple AWS accounts containing EC2 workloads. A scalable solution is required to proactively detect the disk space issues before they impact availability. currently, organization uses Ansible and wants to leverage the existing stack with cloud-native services where they add operational value. 
 
-#Proposed Solution Using:
+#Proposed Solution
+
+Hybrid Architecture using:
 
 - Ansible
 - AWS Systems Manager
@@ -56,4 +58,6 @@ CloudWatch Agent collects:
 6. Auto-Onboarding
 - New EC2 launches trigger Eventbridge, Lambda, tagging, onboarding workflow
 
-#About the Design
+7. Scalability
+- supports growth in AWS accounts, regions, EC2 Instances, teams/environments
+- No redesign required
