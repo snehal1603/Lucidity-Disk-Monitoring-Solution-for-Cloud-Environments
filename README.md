@@ -2,6 +2,7 @@
 Scalable-AWS-Disk-Monitoring-Solution
 
 #Background
+
 A large Enterprise is operating mulitple AWS accounts containing EC2 workloads. A scalable solution is required to proactively detect the disk space issues before they impact availability. currently, organization uses Ansible and wants to leverage the existing stack with cloud-native services where they add operational value. 
 
 #Proposed Solution Using:
