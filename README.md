@@ -67,6 +67,7 @@ CloudWatch Agent collects:
 
 Lucidity-Disk-Monitoring-Solution-for-Cloud-Environments/
 │── README.md
+|── architecture-diagram.pdf
 │── ansible/
 │   ├── inventory_aws_ec2.yml
 │   ├── playbook-install-cloudwatch-agent.yml
