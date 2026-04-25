@@ -53,7 +53,7 @@ CloudWatch Agent collects:
 - Metrics Centralized into CloudWatch Dashboards.
 
 5. Alerting
-- CloudWatch Alarm when disk usage is greater than 80% and SNS sends a message.
+- CloudWatch Alarm when disk usage is greater than 80% and SNS sends an email.
 
 6. Auto-Onboarding
 - New EC2 launches trigger Eventbridge, Lambda, tagging, onboarding workflow
